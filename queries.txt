@@ -1,0 +1,2 @@
+select a.state, a.total_renewable, b.energy_consumed_gwh, (b.energy_consumed_gwh - a.total_renewable ) from state_renewable as a  
+join state_consumption as b on a.state= b.state;
