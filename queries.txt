@@ -1,2 +1,13 @@
 select a.state, a.total_renewable, b.energy_consumed_gwh, (b.energy_consumed_gwh - a.total_renewable ) from state_renewable as a  
 join state_consumption as b on a.state= b.state;
+
+
+
+
+# Create table
+
+CREATE TABLE state_consumption (
+  state varchar primary key,
+  population int,
+  energy_consumed_btu int,
+  energy_consumed_gwh float);
