@@ -1,13 +1,22 @@
-select a.state, a.total_renewable, b.energy_consumed_gwh, (b.energy_consumed_gwh - a.total_renewable ) from state_renewable as a  
-join state_consumption as b on a.state= b.state;
 
 
-
-
-# Create table
+# Create table state_consumption
 
 CREATE TABLE state_consumption (
   state varchar primary key,
   population int,
   energy_consumed_btu int,
-  energy_consumed_gwh float);
+  total_consumed_energy_gwh float);
+
+
+#create table state_renewable
+
+CREATE TABLE state_renewable (
+	state varchar primary key,
+  	total_renewable_gwh float);
+
+#
+select a.state, a.total_renewable, b.energy_consumed_gwh, (b.energy_consumed_gwh - a.total_renewable ) from state_renewable as a  
+join state_consumption as b on a.state= b.state;
+
+
