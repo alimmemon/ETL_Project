@@ -5,7 +5,7 @@ The purpose of this project is to merge datasets, transform, and load the energy
 
 ## [](https://github.com/warrenallen/covid202/blob/master/final-report-md-template.md#code-walkthrough)Code Walkthrough
 
-![](Resources/Renewable Energy.png)
+![](Resources/SQL_queries.png)
 
  - Retrieved the data from the website United States Renewable Energy and downloaded it as a CSV file.
  - Then cleaned the data and created new dataframe.
