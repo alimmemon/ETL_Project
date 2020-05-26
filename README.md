@@ -24,6 +24,8 @@ The purpose of this project is to merge datasets, transform, and load the energy
 
 #To Create the Database in MySQL
 
+![](Resources/state_ERD.png)
+
 ![](Resources/SQL_queries.png)
 
 
