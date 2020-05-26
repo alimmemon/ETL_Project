@@ -5,18 +5,17 @@ The purpose of this project is to merge datasets, transform, and load the energy
 
 ## [](https://github.com/warrenallen/covid202/blob/master/final-report-md-template.md#code-walkthrough)Code Walkthrough
 
-![](Resources/SQL_queries.png)
+![](Resources/Renewable_Energy.png)
 
  - Retrieved the data from the website United States Renewable Energy and downloaded it as a CSV file.
  - Then cleaned the data and created new dataframe.
 
-
-![](https://i.ibb.co/DMN8xy0/Code2.png)
+![](Resources/energy_consumption.csv)
 
  - Our first steps in cleaning up the datasets which variables were not relevant. The last step was to transfer our final output into a Database. We created a database and respective tables to match the columns from the final Panda’s Data Frame using MySQL and then connected to the database using SQLAlchemy and loaded the result.
 
 
-![](https://i.ibb.co/Sc0m6mQ/Code3.png)
+![](Resources/US_Consumption.png)
 
  - Merged the CSV files.
  - Created the database in SQL using PGadming
@@ -25,7 +24,7 @@ The purpose of this project is to merge datasets, transform, and load the energy
 
 #To Create the Database in MySQL
 
-Images here
+![](Resources/SQL_queries.png)
 
 
 #The link to the CSVs
