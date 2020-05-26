@@ -22,14 +22,14 @@ The purpose of this project is to merge datasets, transform, and load the energy
  - Then Appened to the database using the SQLAlchemy within Jupyter notebook.
 
 
-#To Create the Database in MySQL
+##To Create the Database in MySQL
 
 ![](Resources/state_ERD.png)
 
 ![](Resources/SQL_queries.png)
 
 
-#The link to the CSVs
+##The link to the CSVs
 
 - Source 1 (https://www.eia.gov/state/rankings/) is the energy rankings of states.
 - Source 2 (https://data.world/doe/united-states-renewable-energy) lists the different renewable sources of energy.
