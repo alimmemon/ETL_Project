@@ -10,12 +10,12 @@ The purpose of this project is to merge datasets, transform, and load the energy
  - Retrieved the data from the website United States Renewable Energy and downloaded it as a CSV file.
  - Then cleaned the data and created new dataframe.
 
-![](Resources/energy_consumption.csv)
+![](Resources/US_Consumption.png)
 
  - Our first steps in cleaning up the datasets which variables were not relevant. The last step was to transfer our final output into a Database. We created a database and respective tables to match the columns from the final Panda’s Data Frame using MySQL and then connected to the database using SQLAlchemy and loaded the result.
 
 
-![](Resources/US_Consumption.png)
+![](Resources/toSQL_DB.png)
 
  - Merged the CSV files.
  - Created the database in SQL using PGadming
