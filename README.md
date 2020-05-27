@@ -12,7 +12,7 @@
 
 ## ETL Energy Consumption
 
-The purpose of this project is to merge, transform, and load energy consumption data from multiple sources as part of the ETL project. The United States consume a large amount of energy from multiple sources. Renewable energy is important because it limits the fuel amount used regularly which causes stress on the environment. For this project, data was extracted from a series of CSV files. 
+The purpose of this project is to merge, transform, and load energy consumption data from multiple sources as part of the ETL project. The United States consumes a large amount of energy from multiple sources. Renewable energy provides an alternative to carbon-based fuel sources which pollute to the environment. For this project, data was extracted from a series of CSV files. 
 
 ## [](https://github.com/warrenallen/covid202/blob/master/final-report-md-template.md#code-walkthrough)Code Walkthrough
 
