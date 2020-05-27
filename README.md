@@ -1,7 +1,18 @@
+## Instructions
+
+1. Open PGAdmin and create a database called etl_db.
+	-If state_consumption and state_renewable tables already exist drop them
+2. From schema.txt run #create table state_consumption
+3. From schema.txt run #create table state_renewable
+4. Run etl.ipynb 
+5. Run EnergyConsumption.ipynb
+6. Run ToDatabase.ipynb
+7. From schema.txt run #example query
+
 
 ## ETL Energy Consumption
 
-The purpose of this project is to merge datasets, transform, and load the energy consumption data from multiple sources and merge them as part of the ETL project. The United States consumes a lot of energy and it comes from multiple sources. Renewable energy is important because it limits the fuel amount used regularly which causes stress on the environment. For this project, data was extracted from a series of CSV files. 
+The purpose of this project is to merge, transform, and load energy consumption data from multiple sources as part of the ETL project. The United States consume a large amount of energy from multiple sources. Renewable energy is important because it limits the fuel amount used regularly which causes stress on the environment. For this project, data was extracted from a series of CSV files. 
 
 ## [](https://github.com/warrenallen/covid202/blob/master/final-report-md-template.md#code-walkthrough)Code Walkthrough
 

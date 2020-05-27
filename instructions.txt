@@ -1,7 +1,11 @@
 #To reproduce our process and get the database, do the following: 
 
+
 1. Open PGAdmin and create a database called etl_db.
-2. Run etl.ipynb 
-3. Run EnergyConsumption.ipynb
-4. Run ToDatabase.ipynb 
-5. Execute the sql in the schema.sql file.
+	-If state_consumption and state_renewable tables already exist drop them
+2. From schema.txt run #create table state_consumption
+3. From schema.txt #create table state_renewable
+4. Run etl.ipynb 
+5. Run EnergyConsumption.ipynb
+6. Run ToDatabase.ipynb 
+
